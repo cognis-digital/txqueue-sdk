@@ -18,6 +18,33 @@ be driven from any language.
 
 ---
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "transactions": [
+    {
+      "id": "1234567890",
+      "status": "PENDING",
+      "amount": 100.99,
+      "created_at": "2023-02-20T14:30:00Z"
+    },
+    {
+      "id": "9876543210",
+      "status": "COMPLETED",
+      "amount": 500.01,
+      "created_at": "2023-02-19T10:45:00Z"
+    }
+  ]
+}
+```
+
+<!-- cognis:example:end -->
+
 ## Install
 
 ```sh
